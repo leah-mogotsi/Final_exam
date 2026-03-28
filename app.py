@@ -17,5 +17,5 @@ if st.button("Predict"):
 
     prediction = model.predict(features)
 
-    st.success(f"Estimated Price: {prediction[0]}")
+    st.success(f"Prediction: {prediction[0]}")
     
