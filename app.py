@@ -8,7 +8,7 @@ model = joblib.load("nltk.pkl")
 
 st.title("Spam Detection App")
 
-text = st.number_input("Enter message received")
+text = st.text_input("Enter message received")
 
 
 if st.button("Predict"):
